@@ -1,0 +1,231 @@
+*{
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+   
+    background: url("./images/bg-curvy-desktop.svg") no-repeat center bottom;
+    background-color: #1c2431;
+    background-size: contain;
+    padding: 0px;
+    margin: auto;
+}
+
+/* .hero::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    background: #181f2a;
+    background-size: contain;
+    width: 100vw;
+    height: 14rem;
+    z-index: -1;
+} */
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    list-style: none;
+    padding-right: 1.75rem;
+}
+
+ul li a {
+    text-decoration: none;
+    list-style: none;
+    list-style-type: disc;
+    color: #c6cbcd;
+}
+
+.header img {
+ 
+    height: 3.25rem;
+    padding-left: 1.75rem;
+ 
+}
+
+.first-headline {
+    color: white;
+    text-align: center;
+    /* position: relative; */
+    width: 40ch;
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+
+
+
+.second-headline {
+    color: #d4d4d4d8;
+    text-align: center;
+    max-width: 52ch;
+    font-size: 19px;
+    font-weight: lighter;
+    padding-top: 0px;
+}
+
+.first-headline::before {
+    content: "";
+    display: block;
+    background: url(./images/illustration-intro.png) no-repeat;
+    background-size: contain;
+    width: 45rem;
+    height: 33rem;
+    padding-bottom:80px;
+    margin-left: 90px;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    
+}
+
+button {
+    width:16rem;
+    color: white;
+    height: 3rem;
+    font-size: 20px;
+    border-radius: 30%;
+    border-radius: 40px;
+    background: linear-gradient(to right, #65e2d9, #339ecc);
+    border: none;
+    outline: none;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: linear-gradient(to right, #80ccc7, #63afcf);
+}
+
+.grid-one {
+    display: grid;
+    grid-template-areas:  
+        "left-top right-top"
+        "left-buttom right-buttom";
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   grid-row-gap: 6rem;
+    margin-top: 100px;
+    grid-column-gap: 10rem;
+}
+
+.left-top {
+    grid-area: left-top;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.left-buttom {
+    grid-area: left-buttom;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.right-top {
+    grid-area: right-top;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.right-buttom {
+    grid: right-buttom;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    align-content: center; 
+}
+
+.h-two {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 0;
+    text-transform: uppercase;
+    margin-bottom:0px
+}
+
+.h-three {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #d4d4d4d8;
+    justify-content: center;
+    text-align: center;
+    max-width: 40ch;
+    font-size: 18px;
+}
+
+
+.left-top::before {
+    content: "";
+    display: block;
+    background: url(./images/Second-panel/grid-icon-1.svg) no-repeat;
+    background-size: contain;
+    width: 5rem;
+    height: 5.5rem;
+    margin: 0 auto;
+    
+}
+
+.h-twoo::before {
+    content: "";
+    background: url(./images/Second-panel/grid-icon-3.svg) no-repeat;
+    background-size: contain;
+    display: block;
+    width: 5.6rem;
+    height: 5rem;
+    margin: 8.4px 9.9rem;
+    /* margin-bottom: 15px; */
+    text-align: center;
+}
+
+.right-top::before {
+    content: "";
+    background: url(./images/Second-panel/grid-icon-2.svg) no-repeat;
+    display: block;
+    width: 5rem;
+    height: 5.5rem;
+    margin: 0 auto;
+}
+
+.h-twooo::before {
+    content: "";
+    background: url(./images/Second-panel/grid-icon-4.svg) no-repeat;
+    display: block;
+    width: 5.5rem;
+    height: 5.5rem;
+    margin: 0 auto;
+}
