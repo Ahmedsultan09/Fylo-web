@@ -122,6 +122,7 @@ button {
     font-weight: 700;
     text-align: center;
     margin-top: 20px;
+    cursor:pointer;
 }
 
 button:hover {
@@ -321,5 +322,191 @@ button:hover {
     -moz-transform: translateY(-2.5px) translateX(2.5px);
     -ms-transform: translateY(-2.5px) translateX(2.5px);
     -o-transform: translateY(-2.5px) translateX(2.5px);
+}
+
+.details-grid {
+    display: grid;
+    grid-template-areas: "one two three";
+    width: 70%;
+    gap: 20px;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.person-one {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: column-reverse;
+    grid-area: one;
+    background-color: #202a3c;
+    border-radius: 8px;
+    padding: 20px 40px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -webkit-box-pack: center;
+}
+
+.person-one p {
+    color: #c6cbcd;
+   
+}
+
+.person-one .name {
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.person-one .title {
+    color: white;
+    font-size: 12px;
+
+}
+
+.personal-details-one {
+    position: relative;
+    padding-left: 40px;
+}
+.personal-details-one::before {
+    content: '';
+    background: url(./images/person-1.jpg) no-repeat;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    transform: translateX(-40px);
+    -webkit-transform: translateX(-40px);
+    -moz-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    -o-transform: translateX(-40px);
+}
+
+.person-two {
+    grid-area: two;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: column-reverse;
+    background-color: #202a3c;
+    border-radius: 8px;
+    padding: 20px 40px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.person-two p {
+    color: #c6cbcd;
+   
+}
+
+.person-two .name {
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.person-two .title {
+    color: white;
+    font-size: 12px;
+
+}
+
+.personal-details-two {
+    position: relative;
+    padding-left: 40px;
+}
+.personal-details-two::before {
+    content: '';
+    background: url(./images/person-2.jpg) no-repeat;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    transform: translateX(-40px);
+    -webkit-transform: translateX(-40px);
+    -moz-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    -o-transform: translateX(-40px);
+}
+
+
+.person-three {
+    grid-area: three;
+    display: flex;
+    /* justify-content: ; */
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: column-reverse;
+    background-color: #202a3c;
+    border-radius: 8px;
+    padding: 20px 40px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.person-three p {
+    color: #c6cbcd;
+   
+}
+
+.person-three .name {
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.person-three .title {
+    color: white;
+    font-size: 12px;
+
+}
+
+
+.personal-details-three {
+    position: relative;
+    padding-left: 40px;
+}
+.personal-details-three::before {
+    content: '';
+    background: url(./images/person-3.jpg) no-repeat;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    transform: translateX(-40px);
+    -webkit-transform: translateX(-40px);
+    -moz-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    -o-transform: translateX(-40px);
 }
 
