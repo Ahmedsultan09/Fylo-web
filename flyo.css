@@ -700,8 +700,12 @@ button:hover {
 .footer-tags {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5vw;
-    margin-top: auto;
+    
+    gap:5vw;
+    margin-top: unset;
+    width: auto;
+    height: 4vh;
+
   
 
 }
@@ -716,7 +720,7 @@ button:hover {
 .footer-tags ul,li {
     
     list-style: none;
-    margin-top: unset;
+    margin-top: 0;
     
 }
 
