@@ -25,6 +25,7 @@ body {
     background-color: #1c2431;
     position: relative;
     z-index: 1;
+    height: 100%;
 }
 /* .hero::before {
     content: "";
@@ -620,7 +621,7 @@ button:hover {
     
     display: grid;
     width: auto;
-    height: 55vh;
+    height: 40vh;
     grid-template-areas:
      "location telepohne about contact socials"
      "location mail jobs terms ."
@@ -699,12 +700,13 @@ button:hover {
 
 .footer-tags {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     
     gap:5vw;
     margin-top: unset;
     width: auto;
     height: 4vh;
+    
 
   
 
@@ -759,6 +761,8 @@ button:hover {
     -moz-transition: .3s;
     -ms-transition: .3s;
     -o-transition: .3s;
+    display: inline;
+    
 }
 
 .social-icons a{
