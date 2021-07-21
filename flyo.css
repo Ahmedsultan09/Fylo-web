@@ -112,8 +112,8 @@ ul li a {
     background-size: contain;
     width: 45rem;
     height: 33rem;
-    padding-bottom:80px;
-    margin-left: 90px;
+    padding-bottom: 5rem;
+    margin-left: 5.625;
 }
 
 .headline {
@@ -787,7 +787,188 @@ font-size: 45px;
 /* Media Queries */
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (max-width: 394px)  {
+    .hero {
+        max-width: 393px;
+        
+    }
+
+    .header img{
+        height: 1rem;
+    }
+ 
+    ul li {
+        font-size: .75rem;
+    }
+  
+ 
+  li a {
+  font-size: .75rem;
+  }
+
+    .first-headline::before {
+        width: 23.8rem;
+        height: 17rem;
+     
+    }
+
+    .first-headline {
+        font-size: 22px;
+        max-width: 30ch;
+    }
+
+    .second-headline {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 22px;
+    }
+
+    .grid-one {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+         
+     }
+    
+    .productiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        margin-top: 60px;
+    }
+
+    .productiv::before {
+        width: 85vw;
+        height: 64vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+     }
+
+    .h-two {
+        font-size: 22px;
+    }
+    .h-three {
+        font-size: 16px;
+        
+    }
+
+    .content h1 {
+        font-size: 22px;
+        max-width: fit-content;
+        margin: 1rem 2rem;
+        margin-top: 0px;
+        
+    }
+    .content p {
+        font-size: 16px;
+        /* max-width: fit-content; */
+        display: flex;
+        justify-content: center;
+        margin: 1rem 2rem;
+    }
+    }
+    
+    .content a {
+        margin: 1rem 2rem;
+    }
+    .details-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 7rem;
+    }
+    .access-box {
+        max-width: 80%;
+        
+    }
+    
+    .highlited-text {
+        font-size: 22px;
+    }
+    .access-box .inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .access-box .inputs .web-site {
+        width:  20rem;
+    }
+    
+    .access-box button{
+        width: 20rem;
+    }
+    .footer-components {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 50px 0;
+        padding-left: 50px;
+        
+    }
+    .footer-tags {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .footer-tags ul {
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .footer-tags a {
+        font-size: 20px;
+    }
+    
+    
+    .social-icons i {
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        display: inline-flex;
+        font-size:  40px;
+    }
+    
+    
+    .social-icons a:hover {
+        font-size: unset;
+    }
+    
+    .location::before {
+        margin-top: 10px;
+        padding-bottom: 10px;
+        -webkit-transform: translateY(-120px) translateX(0px);
+    }
+    .location {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .location i {
+        -webkit-transform: translateX(-24px) translateY(5px);
+        font-size: 22px;
+    }
+   
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 575.98px) {
    .hero {
        max-width: 575.98px;
        height: 100%;
